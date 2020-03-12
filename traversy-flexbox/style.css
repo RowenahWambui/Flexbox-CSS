@@ -1,0 +1,29 @@
+@media(min-width:468px){
+    .flex-container1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-container2{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.flex-container1 div, .flex-container2 div{
+    border: 1px solid gray;
+    padding: 10px;
+}
+.box-1{
+  flex: 1;  
+}
+.box-2{
+    flex: 1;
+}
+.box-3{
+    flex: 1;
+}
+
+
+.flex-box2{
+    width: 20%;
+}

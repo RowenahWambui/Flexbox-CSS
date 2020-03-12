@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.container header,nav,main,aside,footer{
+    background: #ccc;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap; 
+}
+header{
+    order: 1;
+    height: 100px;
+    flex: 0 1 100%; /* */
+}
+
+nav{
+order: 2;
+flex: 0 1 200px;
+}
+
+main{
+    order: 3;
+    min-height: 400px;
+    flex: 1;
+}
+
+aside{
+    order: 4;
+    width: 200px;
+    flex: 0 1 200px;
+}
+footer{
+    order: 5;
+    height: 100px;
+    flex: 0 1 100%;
+}

@@ -1,0 +1,59 @@
+html {
+    background-color: #fa923f;
+    padding: 10px;
+}
+
+body {
+    background-color: yellow;
+    padding: 10px;
+    margin: 0;
+}
+.parent {
+    background-color: #3b6f7c;
+    margin: 10px;
+    padding: 30px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap; 
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.div1 {
+    background-color: #f800db;
+    margin: 5px;
+    order: 1;
+}
+
+.div2 {
+    background-color: #f800db;
+    margin: 5px;
+    width: 150px;
+    font-size: 30px;
+    align-self: flex-start;
+}
+
+.div3 {
+    background-color: #f800db;
+    margin: 5px;
+    height: 150px;
+}
+
+.div4 {
+    background-color: #f800db;
+    margin: 5px;
+    width: 150px;
+    height: 150px;         
+}
+
+.div5 {
+    background-color: #f800db;
+    margin: 5px;
+    width: 200px;           
+}
+
+.div6 {
+    background-color: #f800db;
+    margin: 5px;
+    width: 200px;
+}
